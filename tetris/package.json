@@ -1,0 +1,43 @@
+{
+  "name": "base_template",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "cross-env webpack serve --config webpack.dev.config.js ",
+    "build": "webpack --config webpack.build.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RgBunn/IT-academy_pt2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RgBunn/IT-academy_pt2/issues"
+  },
+  "homepage": "https://github.com/RgBunn/IT-academy_pt2#readme",
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.27.1",
+    "@babel/preset-env": "^7.27.2",
+    "@eslint/js": "^9.27.0",
+    "@eslint/json": "^0.12.0",
+    "babel-loader": "^10.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^7.1.2",
+    "eslint": "^9.27.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.4.1",
+    "globals": "^16.2.0",
+    "html-webpack-plugin": "^5.6.3",
+    "merge": "^2.1.1",
+    "mini-css-extract-plugin": "^2.9.2",
+    "prettier": "3.5.3",
+    "sass-loader": "^16.0.5",
+    "webpack": "^5.99.8",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.1",
+    "webpack-merge": "^6.0.1"
+  }
+}
