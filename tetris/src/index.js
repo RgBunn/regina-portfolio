@@ -1,15 +1,9 @@
-import './styles/main.css';
+import "./styles/main.css";
+import { createGameGrid, createPreviewGrid } from "./grid";
+import { spawnNewTetromino } from "./game-logic";
+import "./controls.js";
+import "./leaderboard.js";
 
-// import SVG from '@Public/assets/test.svg';
-
-class Hello{
-    constructor(){}
-}
-class SecondHello extends Hello{
-    constructor(    ) {
-        super();
-
-
-
-    }
-}
+createGameGrid();
+createPreviewGrid();
+spawnNewTetromino();

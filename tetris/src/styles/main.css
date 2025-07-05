@@ -14,7 +14,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Rubik Doodle Shadow", cursive;
+  font-family: "Rubik Doodle Shadow";
 }
 .tetris-wrapper {
   display: flex;
